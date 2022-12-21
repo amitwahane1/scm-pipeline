@@ -4,7 +4,7 @@ pipeline{
  
        label{
 	   
-	       label 'master'
+	       label 'built-in'
 		   customWorkspace '/mnt/project'
 	   }
  
@@ -16,7 +16,7 @@ pipeline{
    
        steps{
 	   
-	   sh "mkdir test"
+	   echo "hello all"
 	   }
    }
  
@@ -25,7 +25,7 @@ pipeline{
   
   steps {
    
-    sh "mkdir folder"
+    sh "mkdir folder1"
   }
  
  }
