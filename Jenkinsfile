@@ -4,7 +4,7 @@ pipeline{
  
        label{
 	   
-	       label 'build-in'
+	       label 'Built-In'
 		   customWorkspace '/mnt/project'
 	   }
  
